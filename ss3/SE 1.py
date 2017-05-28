@@ -1,13 +1,12 @@
 import time
 clothes = ["T-Shirt", "Sweater", "Jeans"]
+print ("|==============================================|")
+print ("|Copy: 'C' |Read: 'R' |Update: 'U' |Delete: 'D'|")
+print ("|==============================================|")
 
 while True:
 
     action = input ( "Welcome to our shop, what do you want (C, R, U, D)?")
-    print ("|==============================================|")
-    print ("|Copy: 'C' |Read: 'R' |Update: 'U' |Delete: 'D'|")
-    print ("|==============================================|")
-
     action = action.upper()
     if action == "C":
         item = (input("Enter new item:")).title()
@@ -22,7 +21,7 @@ while True:
             print()
             continue
         item = (input("New item:")).title()
-        clothes[position] = item
+        clothes[position-1] = item
         print ("Our items:",clothes)
     else:
         position = int(input("Delete position:"))
@@ -30,7 +29,7 @@ while True:
             print ("There's no item number", position)
             print()
             continue
-        del clothes[position]
+        del clothes[position-1]
         print ("Our items:",clothes)
         
     print ()
