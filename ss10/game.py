@@ -78,3 +78,4 @@ class Game:
             self.draw_image_center(screen, win_image)
             time.sleep(10)
             quit()
+
