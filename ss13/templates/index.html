@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,4 +54,61 @@
     </tr>
 </table>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artist List</title>
+</head>
+<style>
+    table {
+        font-family: "Times New Roman", sans-serif;
+        width: auto;
+    }
+    td, th {
+        border: 1px solid;
+        text-align: left;
+        padding: 8px;
+    }
+    tr: nth-child(even) {
+        background-color: transparent
+    ;}
+</style>
+<h3> Famous Artist</h3>
+<body>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Famous Artwork</th>
+    </tr>
+    <tr>
+{#        {% for artist in artists%}#}
+    {# jinja 2#}
+{#    <img src="{{ artist.name }}" alt="">#}
+{#    <h3>{{ artist.country }}</h3>#}
+{#    <p>{{ artist.artwork }}</p>#}
+{#{% endfor %}#}
+
+        <td>Leonardo da vinci</td>
+        <td>Italy</td>
+        <td>Mona Lisa</td>
+
+    </tr>
+
+    <tr>
+        <td>Michelangelo</td>
+        <td>Italy</td>
+        <td>David</td>
+    </tr>
+
+    <tr>
+        <td>Claude Monet</td>
+        <td>France</td>
+        <td>Water Lily Pond</td>
+    </tr>
+</table>
+</body>
+>>>>>>> df6e0d7a9a153ae19f9236bbc8b5e195ece4f816
 </html>
