@@ -1,4 +1,5 @@
-.menu:not(.menu_vertical) {
+/*.menu:not(.menu_vertical)*/
+.menu{
     color: #402E2A;
     background: #D5B0AC;
     font-weight: bold;
@@ -6,28 +7,26 @@
 
 }
 
-.menu > span {
+.menu span {
     display: inline-block;
     width: 100px;
     height: 30px;
     line-height: 30px;
 }
+.menu_vertical{
+    display: inline-block;
+    background: transparent;
+}
 
-.menu_vertical > span {
-    color: #402E2A;
-    background: #D5B0AC;
-    font-weight: bold;
-    text-align: center;
+.menu_vertical span {
     display:block;
-    width: 100px;
-    height: 30px;
+    background: #D5B0AC;
     margin: 2px;
 }
 
 
-span:hover{
+.menu span:hover{
     background: #9CD08F;
     color: #FFFFFF;
     cursor: pointer;
-    cursor: hand;
 }
