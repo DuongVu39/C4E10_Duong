@@ -1,123 +1,111 @@
 # C4E10_Duong
 
+# C4E10_Duong
 
-
-
+![](img/genius.png)
 <h1 align="center">
-
   <br>
-
 rGenius
-
 <br>
-
 </h1>
 
 <h5 align="center">
-
 Created by</a></h5>
 
 <h4 align="center">
 
-Tyler Roberts
-
-Maud Boucherit 
-
-Duong Vu
-
-Tariq Hassan
+[Tyler Roberts](https://github.com/tylercroberts/)
+[Maud Boucherit](https://github.com/MaudBoucherit) 
+[Duong Vu](https://github.com/DuongVu39)
+[Tariq Hassan](https://github.com/TariqAHassan)
 
 </a></h4>
 
 <br>
-
 <h4 align="center">
 
 
 
 <br>
-
 <h4 align="center">
 
+[![Build Status](https://travis-ci.org/tylercroberts/rGenius.svg?branch=master)](https://travis-ci.org/tylercroberts/rGenius)
+[![Coverage status](https://codecov.io/gh/tylercroberts/rGenius/branch/master/graph/badge.svg)](https://codecov.io/github/tylercroberts/rGenius?branch=master)
 
-
-
-
-
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 </a></h4>
 
 <h1></h1>
-
 <h4 align="center">
+  <a href="#main-features">Main Features</a> &nbsp;&nbsp;&nbsp;•&nbsp;
 
-  Main Features •
+  <a href="#Usage">Usage</a> &nbsp;&nbsp;&nbsp;•&nbsp;
 
-  Usage •
+  <a href="#Dependencies">Dependencies</a> &nbsp;&nbsp;&nbsp;•&nbsp;
 
-  Dependencies •
-
-  Installation •
-
+  <a href="#Installation">Installation</a> &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;
 </h4>
-
 <h1></h1>
 
 <br>
 
-Overview
+## Overview
 
-Genius is a website that allows users to provide annotations and interpretation of song lyrics, news stories, sources, poetry, and other documents.
+[Genius](http://genius.com/) is a website that allows users to provide annotations and interpretation of song lyrics, news stories, sources, poetry, and other documents.
 
-This R package wraps the Genius API (here) and provides some interesting data extraction.
+This R package wraps the Genius API ([here](https://genius.com/)) and provides some interesting data extraction.
 
-Add some plots from last labs for demonstration
+> Add some plots from last labs for demonstration
 
-Main Features
+## Main Features
 
 Below are some functions that has been developed in the package:
 
-- get_song()
+- `get_song()`
   - args:
-- get_songs()
+- `get_songs()`
   - args:
-- search_song()
+- `search_song()`
   - args:
-- get_artist()
+- `get_artist()`
   - args:
-- get_song_from_artists()
+- `get_song_from_artists()`
   - args:
 
-Usage
+## Usage
 
-    get_songs(seq(from=1, to=300), access_token)
+```
+get_songs(seq(from=1, to=300), access_token)
+```
 
 
 
-Dependencies
+## Dependencies
 
-- R >= 3.4.3
-- dplyr: grammar of data manipulation
-- httr: a friendly http package for R 
-- readr: Read flat files (csv, tsv, fwf) into R
-- glue: Glue strings to data in R. 
+- [R](https://cran.r-project.org/) >= 3.4.3
+- [dplyr](https://dplyr.tidyverse.org/): grammar of data manipulation
+- [httr](https://github.com/r-lib/httr): a friendly http package for R 
+- [readr](https://github.com/tidyverse/readr): Read flat files (csv, tsv, fwf) into R
+- [glue](https://github.com/tidyverse/glue): Glue strings to data in R. 
 
-Installation from sources
+## Installation from sources
 
 To install the package, simply type the code below in the console:
 
-    devtools::load_all()
-    devtools::install_github("tylercroberts/rGenius")
+```r
+devtools::load_all()
+devtools::install_github("tylercroberts/rGenius")
+```
 
 
 
-Contributing to rGenius
+## Contributing to rGenius
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
 
-A detailed overview on how to contribute can be found in the contributing guide.
+A detailed overview on how to contribute can be found in the [**contributing guide.**](https://github.com/tylercroberts/rGenius/blob/master/CONTRIBUTING.md)
 
-If you are simply looking to start working with the rGenius, navigate to the GitHub “issues” tab and start looking through any issues.
+If you are simply looking to start working with the rGenius, navigate to the [GitHub “issues” tab](https://github.com/tylercroberts/rGenius/issues) and start looking through any issues.
 
 Or maybe through using rGenius you have an idea of your own or are looking for something in the documentation and thinking ‘this can be improved’...you can do something about it!
-
