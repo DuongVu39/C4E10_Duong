@@ -1,6 +1,5 @@
 # C4E10_Duong
 
-# C4E10_Duong
 
 ![](img/genius.png)
 <h1 align="center">
@@ -15,8 +14,11 @@ Created by</a></h5>
 <h4 align="center">
 
 [Tyler Roberts](https://github.com/tylercroberts/)
+
 [Maud Boucherit](https://github.com/MaudBoucherit) 
+
 [Duong Vu](https://github.com/DuongVu39)
+
 [Tariq Hassan](https://github.com/TariqAHassan)
 
 </a></h4>
