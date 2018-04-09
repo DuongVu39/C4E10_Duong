@@ -1,10 +1,8 @@
 # C4E10_Duong
 
-
-![](img/genius.png)
 <h1 align="center">
   <br>
-rGenius
+Web scrapping project
 <br>
 </h1>
 
@@ -13,10 +11,7 @@ Created by</a></h5>
 
 <h4 align="center">
 
-[Tyler Roberts](https://github.com/tylercroberts/) ---
-[Maud Boucherit](https://github.com/MaudBoucherit) ---
-[Duong Vu](https://github.com/DuongVu39) ---
-[Tariq Hassan](https://github.com/TariqAHassan)
+[Duong Vu](https://github.com/DuongVu39)
 
 </a></h4>
 
@@ -27,9 +22,6 @@ Created by</a></h5>
 
 <br>
 <h4 align="center">
-
-[![Build Status](https://travis-ci.org/tylercroberts/rGenius.svg?branch=master)](https://travis-ci.org/tylercroberts/rGenius)
-[![Coverage status](https://codecov.io/gh/tylercroberts/rGenius/branch/master/graph/badge.svg)](https://codecov.io/github/tylercroberts/rGenius?branch=master)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -48,26 +40,11 @@ Created by</a></h5>
 
 ## Overview
 
-[Genius](http://genius.com/) is a website that allows users to provide annotations and interpretation of song lyrics, news stories, sources, poetry, and other documents.
-
-This R package wraps the Genius API ([here](https://genius.com/)) and provides some interesting data extraction.
-
-> Add some plots from last labs for demonstration
 
 ## Main Features
 
 Below are some functions that has been developed in the package:
 
-- `get_song()`
-  - args:
-- `get_songs()`
-  - args:
-- `search_song()`
-  - args:
-- `get_artist()`
-  - args:
-- `get_song_from_artists()`
-  - args:
 
 ## Usage
 
@@ -91,7 +68,7 @@ To install the package, simply type the code below in the console:
 
 ```r
 devtools::load_all()
-devtools::install_github("tylercroberts/rGenius")
+devtools::install_github("")
 ```
 
 
@@ -100,8 +77,6 @@ devtools::install_github("tylercroberts/rGenius")
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements and ideas are welcome.
 
-A detailed overview on how to contribute can be found in the [**contributing guide.**](https://github.com/tylercroberts/rGenius/blob/master/CONTRIBUTING.md)
+A detailed overview on how to contribute can be found in the [**contributing guide.**]()
 
-If you are simply looking to start working with the rGenius, navigate to the [GitHub “issues” tab](https://github.com/tylercroberts/rGenius/issues) and start looking through any issues.
-
-Or maybe through using rGenius you have an idea of your own or are looking for something in the documentation and thinking ‘this can be improved’...you can do something about it!
+Or maybe through using this you have an idea of your own or are looking for something in the documentation and thinking ‘this can be improved’...you can do something about it!
