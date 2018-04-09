@@ -38,11 +38,8 @@ Created by</a></h5>
 <h1></h1>
 <h4 align="center">
   <a href="#main-features">Main Features</a> &nbsp;&nbsp;&nbsp;•&nbsp;
-
   <a href="#Usage">Usage</a> &nbsp;&nbsp;&nbsp;•&nbsp;
-
   <a href="#Dependencies">Dependencies</a> &nbsp;&nbsp;&nbsp;•&nbsp;
-
   <a href="#Installation">Installation</a> &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;
 </h4>
 <h1></h1>
